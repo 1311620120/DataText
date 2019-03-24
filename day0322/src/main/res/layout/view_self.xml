@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/finish_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"/>
+
+        <EditText
+            android:id="@+id/sech_cont_id"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/sech_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="搜索"/>
+        <Button
+            android:id="@+id/butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linrar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.day0322.view.activity.SouView
+            android:id="@+id/FlowtLayout_1_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ff00"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
